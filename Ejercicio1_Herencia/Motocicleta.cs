@@ -12,7 +12,7 @@ namespace Ejercicio1_Herencia
 
         public string DejarlaQuieta()
         {
-            return $"La moto se quedo quieta con {CantidadPatas}";
+            return $"La moto se quedo quieta con {CantidadPatas} pata";
         }
     }
 }
