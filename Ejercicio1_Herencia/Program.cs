@@ -26,17 +26,17 @@
             {
                 Marca = "Gilera",
                 Modelo = "Al Corte",
-                CantidadPatas = 1,
+                CantidadPatas = 0,
             };
 
             var arrancarMoto = moto.ArrancarMotor();
-            var dejarlaquieta = moto.DejarlaQuieta();
+            var dejarlaQuieta = moto.DejarlaQuieta();
 
             Console.WriteLine($"La moto es de marca {moto.Marca}");
             Console.WriteLine($"El modelo es {moto.Modelo}");
             Console.WriteLine($"Y la cantidad de patas es de {moto.CantidadPatas}");
             Console.WriteLine(arrancarMoto);
-            Console.WriteLine(dejarlaquieta);
+            Console.WriteLine(dejarlaQuieta);
         }
     }
 }

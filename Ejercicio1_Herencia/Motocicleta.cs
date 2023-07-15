@@ -12,7 +12,15 @@ namespace Ejercicio1_Herencia
 
         public string DejarlaQuieta()
         {
-            return $"La moto se quedo quieta con {CantidadPatas} pata";
+            if (CantidadPatas == 1)
+            {
+                return $"La moto se quedo quieta con una pata";
+            }
+            if (CantidadPatas > 1)
+            {
+                return $"La moto se quedo quieta con {CantidadPatas} patas";
+            }
+            return $"ERROR AL INGRESAR LA CANTIDAD DE PATAS";
         }
     }
 }
